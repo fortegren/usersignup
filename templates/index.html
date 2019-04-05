@@ -17,13 +17,13 @@
                 {% endif %} 
             </label>
             <br><label>Password: 
-                <input type='text' name='password' value={{password}} >
+                <input type='password' name='password' value={{password}} >
                 {% if password_error %}
                 <span class="error">{{password_error}}</span>
                 {% endif %}  
             </label>
             <br><label>Verify Password: 
-                <input type='text' name='password_verify' value={{password_verify}} >
+                <input type='password' name='password_verify' value={{password_verify}} >
                 {% if password_match_error %}
                 <span class="error">{{password_match_error}}</span>
                 {% endif %}

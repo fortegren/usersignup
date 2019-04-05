@@ -95,3 +95,4 @@ def valid_input():
     name = request.args.get('name')
     return "Welcome, {0}!".format(name)
     
+app.run()
