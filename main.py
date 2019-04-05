@@ -93,6 +93,6 @@ def validate_input():
 @app.route('/valid-input')   
 def valid_input():
     name = request.args.get('name')
-    return "Welcome, {0}!".format(name)
+    return render_template('welcome.html', name=name)
     
 app.run()

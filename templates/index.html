@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Signup</title>
-        <style>
-            .error {color: red;}
-        </style>
-    </head>
-    <body>
+{% extends 'base.html'}
         <h1>Signup</h1>
 
         <form action="/validate" method="POST">
@@ -36,5 +28,4 @@
             </label>
             <br><input type='submit'/>
         </form>
-    </body>
-</html>
+
